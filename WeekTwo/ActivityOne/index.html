@@ -9,25 +9,45 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <style>
+
+            .navButton {
+                background-color: brown;
+                color: aquamarine;
+                border: none;
+                cursor: grab;
+            }
+
+            .fish {
+                cursor: grab;
+            }
+        </style>
+
     </head>
 
     <body>
 
         <h1>My Pictures</h1>
 
-        <div class="media">
+        <header style="background-color: blueviolet; padding: 4px;">
+            <a href="#fish"><button class="navButton">Fishy</button></a>
+            <a href="#fire"><button class="navButton">Fire</button></a>
+            <a href="#gingerbread"><button class="navButton">Gingerbread</button></a>
+        </header>
+
+        <div class="media" id="fish">
             <h2>Fishy</h2>
-            <img src="../img/fish.jpg" alt="Fishy go swim swim">
+            <img src="../img/fish.jpg" alt="Fishy go swim swim" class="fish">
             <p>Photo by <a href="https://unsplash.com/@tangzhengtao?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">zhengtao tang</a> on <a href="https://unsplash.com/photos/white-gold-fish-V7SKRhXskv8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
         </div>
         
-        <div class="media">
+        <div class="media" id="fire">
             <h2>Fire</h2>
             <img src="../img/camp_fire.jpg" alt="Ooooo campfire 🔥">
             <p>Photo by <a href="https://unsplash.com/@lc_photography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leon Contreras</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-marshmallows-on-fire-pit-YndHL7gQIJE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
         </div>
         
-        <div class="media">
+        <div class="media" id="gingerbread">
             <h2>The Gingerbread man</h2>
             <img src="../img/ed.png" alt="does she even fiddle?">
             <p>Photo by <a href="https://www.linkedin.com/in/williamhgates">Bill Gates</a> on <a href="https://thecasualdev.me/">TheCasualDev</a></p>
