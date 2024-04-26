@@ -9,9 +9,111 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="stylesheet" href="./style.css?v=0.1">
+
     </head>
 
     <body>
+
+        <h1>Personal Survey</h1>
+
+        <div class="survey">
+
+            <form>
+
+                <fieldset>
+
+                    <legend>About You</legend>
+
+                    <div class="text-input">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" size="45">
+                    </div>
+    
+                    <div class="text-input">
+                        <label for="address">Street Address:</label>
+                        <input type="text" id="address" name="address" size="45">
+                    </div>
+    
+                    <div class="text-input">
+                        <label for="suburb">Suburb:</label>
+                        <input type="text" id="suburb" name="suburb" size="45">
+                    </div>
+
+                    <br>
+
+                    <div class="radial-buttons">
+
+                        <label>Gender:</label>
+    
+                        <div class="radial-button">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Male</label>
+                        </div>
+    
+                        <div class="radial-button">
+                            <input type="radio" id="female" name="gender">
+                            <label for="male">Female</label>
+                        </div>
+    
+                        <div class="radial-button">
+                            <input type="radio" id="non-binary" name="gender">
+                            <label for="male">Non-binary</label>
+                        </div>
+    
+                    </div>
+
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+
+                    <legend>About your pet</legend>
+
+                    <div class="checkboxes">
+
+                        <label>Please select any pets you have:</label>
+    
+                        <div class="checkbox">
+                            <input type="checkbox" id="dog" name="dog">
+                            <label for="dog">Dog</label>
+                        </div>
+    
+                        <div class="checkbox">
+                            <input type="checkbox" id="cat" name="cat">
+                            <label for="cat">Cat</label>
+                        </div>
+                        
+                        <div class="checkbox">
+                            <input type="checkbox" id="goldfish" name="goldfish">
+                            <label for="goldfish">Goldfish</label>
+                        </div>
+    
+                        <div class="checkbox">
+                            <input type="checkbox" id="rabbit" name="rabbit">
+                            <label for="rabbit">Rabbit</label>
+                        </div>
+    
+                        <div class="checkbox">
+                            <input type="checkbox" id="other" name="other">
+                            <label for="other">Other</label>
+                        </div>
+    
+                    </div>
+
+                </fieldset>
+
+                <br>
+
+                <div class="buttons">
+                    <input type="submit" value="Submit Application">
+                    <input type="reset" value="Reset Form">
+                </div>
+
+            </form>
+
+        </div>
         
     </body>
 
