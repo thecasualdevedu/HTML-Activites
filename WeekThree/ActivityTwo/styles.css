@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*
+font-family: "Libre Barcode 128 Text", system-ui;
+font-family: "Ubuntu Mono", monospace;
+font-family: "Bebas Neue", sans-serif;
+*/
+
+:root {
+    --neon--green: #CCFFBD;
+    --neon--mint: #7ECA9C;
+    --neon--dark: #40394A;
+    --neon--void: #1C1427;
+}
+
+* {
+    background-color: var(--neon--void);
+    font-family: "Ubuntu Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: var(--neon--mint);
+    font-family: "Bebas Neue", sans-serif
+}
+
+.head {
+    padding-top: 2rem;
+    background-color: var(--neon--void);
+}
+.head > p {
+    color: var(--neon--green);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;  
+}
+.head > p > a {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+}
+
+a:link {
+    color: var(--neon--mint);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--neon--green);
+    text-decoration: underline;
+}
+
+div {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+div > h2 {
+    color: var(--neon--mint);
+    padding-bottom: 0.2em;
+}
+div > p {
+    color: var(--neon--mint);
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 10rem;
+}
+.bottom > a:link {
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-size: 4rem;
+    text-align: center;
+}
+.bottom > a:hover {
+    text-decoration: none;
+}
