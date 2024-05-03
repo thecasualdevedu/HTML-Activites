@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --chisholm--deepblue: #153448;
+    --chisholm--blue: #3C5B6F;
+    --chisholm--brown: #948979;
+    --chsiholm--lightbrow: #DFD0B8;
+    --chisholm--white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--chisholm--deepblue);
+    font-size: 0.8em;
+}
+
+header > h1 {
+    font-family: "Poetsen One", sans-serif;
+    background-color: var(--chisholm--blue);
+    font-size: 3em;
+    padding: 1%;
+}
+
+section > h2 {
+    padding-left: 8px;
+    font-size: 2em;
+}
+
+footer {
+    text-align: center;
+}
+
+header, footer, section, article {
+    border: 1px solid var(--chisholm--white);
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 0.2em;
+    background-color: var(--chsiholm--lightbrow);
+}
+header, footer {
+    color: white;
+    background-color: var(--chisholm--blue);
+    margin-bottom: 5px;
+}
+section {
+    background-color: var(--chisholm--brown);
+}
+
+nav > a:link {
+    display: inline;
+    text-decoration: none;
+    color: var(--chisholm--white);
+    margin: 50px;
+    padding: 20px 20px;
+    font-size: 1.5em;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+
